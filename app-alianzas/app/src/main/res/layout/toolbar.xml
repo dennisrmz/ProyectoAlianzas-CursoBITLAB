@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--    toolBar color: #055EA9-->
+
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?attr/actionBarSize"
+    android:background="#055EA9"
+    android:elevation="4dp">
+
+    <TextView
+        android:layout_gravity="center"
+        android:textSize="23sp"
+        android:textColor="#FFFFFF"
+        android:text="@string/fragment_carnet_verification_toolbar_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</androidx.appcompat.widget.Toolbar>

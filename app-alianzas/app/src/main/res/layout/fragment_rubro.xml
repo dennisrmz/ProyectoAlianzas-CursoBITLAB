@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2E0E0"
+    android:layout_marginTop="55dp"
+    android:layout_marginBottom="57dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".RubroFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rubrosListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingEnd="@dimen/card_side_margin"
+        android:paddingStart="@dimen/card_side_margin"
+        android:paddingTop="@dimen/header_margin"
+        app:layoutManager="androidx.recyclerview.widget.StaggeredGridLayoutManager"
+        app:spanCount="@integer/grid_columns"
+        tools:listitem="@layout/item_layout_rubros"
+        />
+
+
+</FrameLayout>

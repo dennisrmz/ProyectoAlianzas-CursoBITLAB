@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Alianzas</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fragment_login_title">Inicia Sesion</string>
+    <string name="fragment_login_description">Accede a tu cuenta para continuar.</string>
+    <string name="fragment_login_email_hint">Correo Electronic</string>
+    <string name="fragment_login_password_hint">Contraseña</string>
+    <string name="fragment_login_continue_button">Continuar</string>
+    <string name="fragment_login_loginProblem_text"><u>Problemas al iniciar sesion</u></string>
+
+    <string name="dialogFragment_login_problem_description">Si tienes problemas iniciando sesión por favor manda un correo unicomer.grupo@alianzas.com para que se pongan en contacto contigo sobre el problema.</string>
+    <string name="dialogFragment_login_problem_continue_button">Continuar</string>
+
+    <string name="fragment_carnet_verification_toolbar_description">Carnet Colaborador</string>
+    <string name="fragment_carnet_verification_text_description">Agrega una imagen a tu carnet para poder continuar</string>
+    <string name="fragment_carnet_verification_button_description">Continuar</string>
+
+    <string name="carnet_verification_dialog_camera_gallery_title">Selecciona una image</string>
+    <string-array name="carnet_verification_dialog_camera_gallery_options">
+        <item>Camara</item>
+        <item>Galeria</item>
+    </string-array>
+
+    <string name="text_anuncio">Menu del dia</string>
+    <string name="image_anuncio_context">image_anuncio</string>
+    <string name="image_rubro_context">image_rubro</string>
+    <string name="fecha_anuncio">fecha</string>
+    <string name="personal_text">Estas son tus diferentes prestaciones como colaborador de unicomer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="image_anuncio_detail">imageAnuncioDetail</string>
+    <string name="text_Anuncio_Detail">aqui se mostrara el texto de detalle de anuncio cargado de firebase</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dialogFragment_aceptar">Aceptar</string>
+    <string name="dialogFragment_cancelar">Ignorar</string>
+    <string name="dialogFragment_mensaje">¿Esta seguro de ocupar este beneficio?</string>
+
+    <!--    Carnet Fields-->
+    <string name="carnet_colaborador_title">Colaborador</string>
+    <string name="carnet_colaborador_name">-------------</string>
+    <string name="carnet_department_title">Departamento</string>
+    <string name="carnet_department_name">-------------</string>
+    <string name="carnet_code_title">Codigo</string>
+    <string name="carnet_code_number">-------------</string>
+    <string name="carnet_button_show_rate">Continuar</string>
+
+</resources>

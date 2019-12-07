@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--    Login colors in use-->
+    <color name="fragment_login_background_color">#FFFFFF</color>
+    <color name="fragment_login_title_color">#000000</color>
+    <color name="fragment_login_description_color">#7B868C</color>
+    <color name="progressBar_login">#055EA9</color>
+
+<!--    RatingBar Color-->
+    <color name="ratingBarColor">#03469F</color>
+    <color name="ratingBarColorInactive">#95989A</color>
+</resources>
